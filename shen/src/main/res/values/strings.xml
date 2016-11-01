@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Shen</string>
+    <string name="default_progress">0%</string>
 </resources>

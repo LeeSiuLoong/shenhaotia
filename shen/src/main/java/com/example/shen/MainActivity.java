@@ -7,14 +7,16 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-Button button;
+    Button button;
+    private Button but;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
         button=(Button)findViewById(R.id.button);
-
+        but =(Button)findViewById(R.id.but);
 
        button.setOnClickListener(new View.OnClickListener() {
            @Override
@@ -23,5 +25,12 @@ Button button;
                startActivity(tent);
            }
        });
+        but.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent tent=new Intent(MainActivity.this,Main22Activity.class);
+                startActivity(tent);
+            }
+        });
     }
 }
