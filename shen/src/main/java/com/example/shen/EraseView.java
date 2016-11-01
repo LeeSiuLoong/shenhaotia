@@ -3,6 +3,7 @@ package com.example.shen;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Bitmap.Config;
+import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
@@ -44,6 +45,7 @@ public class EraseView extends View {
 
         bitmap = Bitmap.createBitmap(getWidth(),getHeight(), Bitmap.Config.ARGB_4444);
 
+        //mCanvas.drawBitmap(BitmapFactory.decodeResource(getResources(), drawable.jiu),null);
         frontBitmap = CreateBitmap(Color.GRAY,getWidth(),getHeight());
 
         paint = new Paint();

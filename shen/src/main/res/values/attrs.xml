@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CircleProgressView">
+        <attr name="circleMargin" format="integer"></attr>
+        <attr name="circleMaxProcess" format="integer"></attr>
+        <attr name="circleProgressColor" format="color" />
+        <attr name="roundProgressColor" format="color" />
+        <attr name="circleColor" format="color" />
+        <attr name="circleBackground" format="reference" />
+        <attr name="roundBackground" format="reference" />
+        <attr name="circleWidth" format="dimension"></attr>
+    </declare-styleable>
+
+
+</resources>
